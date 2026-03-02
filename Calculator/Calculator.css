@@ -15,14 +15,14 @@ body {
 
 .calculator {
     width: 320px;
-    background: #1e293b;
+    background: #e6905d;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .display {
-    background: #0f172a;
+    background: #3a5ba8;
     color: white;
     font-size: 28px;
     text-align: right;
