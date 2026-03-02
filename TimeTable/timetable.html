@@ -4,123 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time Table</title>
+    <link rel="stylesheet" href="timetable.css">
 </head>
 <body>
 
 <h1>Time Table</h1>
-<p><small>BS CS IV C</small></p>
+<p class="subtitle"><small>BS CS IV C</small></p>
 
-<table border="1" cellpadding="10" cellspacing="0">
+<table class="timetable">
     <thead>
         <tr>
-            <th>Day</th>
-            <th>08:00 - 08:50</th>
-            <th>09:00 - 09:50</th>
-            <th>10:00 - 10:50</th>
-            <th>11:00 - 11:50</th>
-            <th>12:00 - 12:50</th>
-            <th>14:00 - 16:40</th>
+            <th class="day-header">Day</th>
+            <th class="time-header">08:00 - 08:50</th>
+            <th class="time-header">09:00 - 09:50</th>
+            <th class="time-header">10:00 - 10:50</th>
+            <th class="time-header">11:00 - 11:50</th>
+            <th class="time-header">12:00 - 12:50</th>
+            <th class="time-header">14:00 - 16:40</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><strong>Monday</strong></td>
-            <td></td>
-            <td>
-                Civics and Community Engagement<br>
+            <td class="day-cell"><strong>Monday</strong></td>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Civics and Community Engagement</strong><br>
                 <small>Mr. Saman Noor</small>
             </td>
-            <td>
-                Software Engineering<br>
+            <td class="class-cell">
+                <strong>Software Engineering</strong><br>
                 <small>Dr. Maryum Nisar</small>
             </td>
-            <td>
-                Computer Organization and Assembly Language<br>
+            <td class="class-cell">
+                <strong>Computer Organization and Assembly Language</strong><br>
                 <small>Ms. Romana Maroof</small>
             </td>
-            <td></td>
-            <td></td>
+            <td class="class-cell"></td>
+            <td class="class-cell"></td>
         </tr>
         <tr>
-            <td><strong>Tuesday</strong></td>
-            <td>
-                Civics and Community Engagement<br>
+            <td class="day-cell"><strong>Tuesday</strong></td>
+            <td class="class-cell">
+                <strong>Civics and Community Engagement</strong><br>
                 <small>Mr. Saman Noor</small>
             </td>
-            <td></td>
-            <td>
-                Computer Networks<br>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Computer Networks</strong><br>
                 <small>Ms. Sara Mishal Sajid</small>
             </td>
-            <td></td>
-            <td>
-                Visual Programming<br>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Visual Programming</strong><br>
                 <small>Mr. Hafiz Obaidullah Khan</small>
             </td>
-            <td>
-                Visual Programming Lab<br>
+            <td class="class-cell">
+                <strong>Visual Programming Lab</strong><br>
                 <small>Mr. Hafiz Obaidullah Khan</small>
             </td>
         </tr>
         <tr>
-            <td><strong>Wednesday</strong></td>
-            <td></td>
-            <td>
-                Multivariable Calculus<br>
+            <td class="day-cell"><strong>Wednesday</strong></td>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Multivariable Calculus</strong><br>
                 <small>Ms. Sumaira Nadeem</small>
             </td>
-            <td>
-                Software Engineering<br>
+            <td class="class-cell">
+                <strong>Software Engineering</strong><br>
                 <small>Dr. Maryum Nisar</small>
             </td>
-            <td>
-                Visual Programming<br>
+            <td class="class-cell">
+                <strong>Visual Programming</strong><br>
                 <small>Mr. Hafiz Obaidullah Khan</small>
             </td>
-            <td></td>
-            <td>
-                Computer Networks Lab<br>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Computer Networks Lab</strong><br>
                 <small>Mr. Muhammad Bilal</small>
             </td>
         </tr>
         <tr>
-            <td><strong>Thursday</strong></td>
-            <td></td>
-            <td>
-                Multivariable Calculus<br>
+            <td class="day-cell"><strong>Thursday</strong></td>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Multivariable Calculus</strong><br>
                 <small>Ms. Sumaira Nadeem</small>
             </td>
-            <td>
-                Advisory Class<br>
+            <td class="class-cell">
+                <strong>Advisory Class</strong><br>
                 <small>Mr. Muhammad Bilal</small>
             </td>
-            <td>
-                Computer Organization and Assembly Language<br>
+            <td class="class-cell">
+                <strong>Computer Organization and Assembly Language</strong><br>
                 <small>Ms. Romana Maroof</small>
             </td>
-            <td>
-                Software Engineering<br>
+            <td class="class-cell">
+                <strong>Software Engineering</strong><br>
                 <small>Dr. Maryum Nisar</small>
             </td>
-            <td>
-                Computer Organization and Assembly Language Lab<br>
+            <td class="class-cell">
+                <strong>Computer Organization and Assembly Language Lab</strong><br>
                 <small>Ms. Romana Maroof</small>
             </td>
         </tr>
         <tr>
-            <td><strong>Friday</strong></td>
-            <td></td>
-            <td></td>
-            <td>
-                Multivariable Calculus<br>
+            <td class="day-cell"><strong>Friday</strong></td>
+            <td class="class-cell"></td>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Multivariable Calculus</strong><br>
                 <small>Ms. Sumaira Nadeem</small>
             </td>
-            <td></td>
-            <td>
-                Computer Networks<br>
+            <td class="class-cell"></td>
+            <td class="class-cell">
+                <strong>Computer Networks</strong><br>
                 <small>Ms. Sara Mishal Sajid</small>
             </td>
-            <td></td>
+            <td class="class-cell"></td>
         </tr>
     </tbody>
 </table>
