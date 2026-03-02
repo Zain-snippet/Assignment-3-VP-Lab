@@ -2,125 +2,278 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Your Name - CV</title>
+    <title>Shahzain Nadeem - CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+</head>
     <style>
-        body {
+        * {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            padding: 20px;
         }
 
         .container {
             width: 900px;
-            margin: 30px auto;
+            margin: 0 auto;
             background: white;
             display: flex;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+            border-radius: 4px;
+            overflow: hidden;
         }
 
         .left {
-            width: 30%;
-            background: #1e293b;
+            width: 28%;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
             color: white;
-            padding: 30px;
+            padding: 40px 30px;
         }
 
         .right {
-            width: 70%;
-            padding: 30px;
+            width: 72%;
+            padding: 40px 35px;
         }
 
         h1 {
-            margin: 0;
-            font-size: 28px;
+            margin: 0 0 5px 0;
+            font-size: 32px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 30px;
+            font-weight: 500;
         }
 
         h2 {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-            margin-top: 30px;
-            font-size: 18px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e293b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #0984e3;
+            padding-bottom: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
         }
 
-        .job-title {
-            margin-top: 5px;
+        .left h2 {
+            color: white;
+            border-bottom: 2px solid #0984e3;
+            margin-top: 30px;
+            margin-bottom: 15px;
             font-size: 14px;
-            color: #94a3b8;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 700;
+            color: #1e293b;
+            margin-top: 12px;
+            margin-bottom: 5px;
+        }
+
+        .left h3 {
+            color: white;
         }
 
         p {
-            font-size: 14px;
-            line-height: 1.6;
+            font-size: 13px;
+            line-height: 1.7;
+            color: #475569;
+            margin-bottom: 8px;
         }
-    </style>
-</head>
 
+        .left p {
+            color: #cbd5e1;
+            font-size: 13px;
+        }
+
+        .left a {
+            color: #0984e3;
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .left a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            margin: 10px 0 15px 0;
+        }
+
+        li {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #475569;
+            margin: 6px 0 6px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .left li {
+            color: #cbd5e1;
+        }
+
+        li:before {
+            content: "▪";
+            position: absolute;
+            left: 0;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .left .date {
+            color: #94a3b8;
+        }
+
+        .position {
+            font-weight: 600;
+            color: #1e293b;
+        }
+
+        .left .position {
+            color: #e2e8f0;
+        }
+
+        .company {
+            font-size: 13px;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+
+        .left .company {
+            color: #cbd5e1;
+        }
+
+        .skill-category {
+            margin-bottom: 15px;
+        }
+
+        .skill-category strong {
+            display: block;
+            font-size: 12px;
+            color: #cbd5e1;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .skill-tag {
+            background-color: rgba(9, 132, 227, 0.15);
+            color: #0984e3;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+</style>        
 <body>
 
 <div class="container">
 
+    <!-- LEFT SIDEBAR -->
     <div class="left">
-        <h1>Your Name</h1>
-        <div class="job-title">Software Developer</div>
+        <h1>Shahzain Nadeem</h1>
+        <div class="subtitle">Software Developer</div>
+
+        <h2>Contact</h2>
+        <p><strong style="color: #e2e8f0;">Email</strong><br>shahzainnadeem352@gmail.com</p>
+        <p><strong style="color: #e2e8f0;">Phone</strong><br>+92-327-5279370</p>
+        <p><strong style="color: #e2e8f0;">Location</strong><br>Islamabad, Pakistan</p>
+        <p><strong style="color: #e2e8f0;">LinkedIn</strong><br><a href="https://www.linkedin.com/in/shahzain-nadeem-00b284229/">shahzain-nadeem</a></p>
+
+        <h2>Skills</h2>
+        <div class="skill-category">
+            <strong>Programming</strong>
+            <div class="skill-list">
+                <span class="skill-tag">C++</span>
+                <span class="skill-tag">Python</span>
+            </div>
+        </div>
+        <div class="skill-category">
+            <strong>Core Competencies</strong>
+            <div>
+                <ul style="margin: 8px 0;">
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+        <div class="skill-category">
+            <strong>Web Technologies</strong>
+            <div class="skill-list">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+            </div>
+        </div>
     </div>
 
+    <!-- RIGHT SIDEBAR -->
     <div class="right">
+
         <h2>Professional Summary</h2>
-        <p>
-            Computer science student with strong fundamentals in programming,
-            data structures, and problem-solving. Passionate about building secure and
-            efficient software systems.
-        </p>
+        <p>Computer science student with strong fundamentals in programming, data structures, and problem-solving. Passionate about building secure and efficient software systems with a focus on algorithmic optimization and clean code practices.</p>
 
-                <h2>Education</h2>
-        <p><strong>Bachelor of Science in Computer Science</strong></p>
-        <p>University Name | 2023 - 2027</p>
-        <p>Relevant Coursework: Data Structures, Algorithms, Operating Systems, Database Systems</p>
+        <h2>Education</h2>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p class="company">Air University</p>
+        <p class="date">2023 - 2027</p>
+        <p><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Operating Systems, Database Systems</p>
 
-
-        <h2>Experience</h2>
-        <p><strong>1.5 years in Air University as a student</strong></p>
-        <p>Air University</p>
+        <h2>Professional Experience</h2>
+        <h3>Software Developer</h3>
+        <p class="company">Air University</p>
+        <p class="date">2023 - Present • 1.5+ years</p>
         <ul>
-            <li>Developed and maintained backend modules using C++ </li>
-            <li>Improved application performance by optimizing data processing logic.</li>
-            <li>Collaborated with fellow developers in debugging and feature implementation.</li>
+            <li>Developed and maintained backend modules using C++</li>
+            <li>Improved application performance by optimizing data processing logic</li>
+            <li>Collaborated with fellow developers in debugging and feature implementation</li>
         </ul>
-
 
         <h2>Projects</h2>
-
-        <p><strong>Local Windows Security Scanner</strong></p>
+        <h3>Local Windows Security Scanner</h3>
+        <p class="date">Python</p>
         <ul>
-            <li>Built a Python-based security tool to detect suspicious executables and vulnerable software.</li>
-            <li>Implemented version comparison and vulnerability matching logic.</li>
-            <li>Generated structured security reports with threat prioritization.</li>
+            <li>Built a Python-based security tool to detect suspicious executables and vulnerable software</li>
+            <li>Implemented version comparison and vulnerability matching logic</li>
+            <li>Generated structured security reports with threat prioritization</li>
         </ul>
 
-        <p><strong>Data Structures Practice Suite</strong></p>
+        <h3>Data Structures Practice Suite</h3>
+        <p class="date">C++</p>
         <ul>
-            <li>Implemented sorting algorithms (Selection, Bubble, Insertion) from scratch.</li>
-            <li>Designed matrix analyzer performing diagonal sums, transpose, and prime detection.</li>
-            <li>Focused on algorithmic efficiency and core logic understanding.</li>
+            <li>Implemented sorting algorithms (Selection, Bubble, Insertion) from scratch</li>
+            <li>Designed matrix analyzer performing diagonal sums, transpose, and prime detection</li>
+            <li>Focused on algorithmic efficiency and core logic understanding</li>
         </ul>
 
     </div>
-    
-    <div class="job-title">Software Developer</div>
-                <h2 style="color:white; border-bottom:1px solid #475569;">Contact</h2>
-        <p>Email: shahzainnadeem352@gmail.com</p>
-        <p>Phone: +92-327-5279370</p>
-        <p>Location: Islamabad, Pakistan</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/shahzain-nadeem-00b284229/">https://www.linkedin.com/in/shahzain-nadeem-00b284229/</a></p>
 
-        <h2 style="color:white; border-bottom:1px solid #475569;">Skills</h2>
-        <ul style="list-style:none; padding-left:0;">
-            <li>✔ C++</li>
-            <li>✔ Python</li>
-            <li>✔ Data Structures</li>
-            <li>✔ Algorithms</li>
-            <li>✔ HTML & CSS</li>
-            <li>✔ Problem Solving</li>
-        </ul>
+</div>
+
+</body>
+</html>
